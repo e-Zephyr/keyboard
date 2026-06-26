@@ -113,20 +113,3 @@ fi
 chmod +x ~/.local/bin/toggle-kbd-light.sh
 
 ```
-
-
-
-### Step 6: Bind to a GNOME Keyboard Shortcut
-
-To replicate the native OS experience, bind the newly created script to a physical keyboard combination.
-
-1. Open **GNOME Settings** -> **Keyboard**.
-2. Select **View and Customize Shortcuts** -> **Custom Shortcuts**.
-3. Click **Add Shortcut** and enter:
-* **Name:** Toggle Keyboard Backlight
-* **Command:** `/home/YOUR_USERNAME/.local/bin/toggle-kbd-light.sh`
-* **Shortcut:** Set your preferred keybinding (e.g., `Super + F8`).
-
-
-
-You now have complete, automated software control over the ODM keyboard backlight within Arch Linux.
